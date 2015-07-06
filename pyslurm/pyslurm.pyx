@@ -4075,16 +4075,6 @@ cdef class qos:
 
 		return 0
 
-	def lastUpdate(self):
-
-		u"""Return last time (sepoch seconds) the node data was updated.
-
-		:returns: epoch seconds
-		:rtype: `integer`
-		"""
-
-		return self._lastUpdate
-
 	def ids(self):
 
 		u"""Return the node IDs from retrieved data.
